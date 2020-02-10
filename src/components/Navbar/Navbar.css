@@ -1,0 +1,97 @@
+.logga {
+  max-height: 100px;
+  display: inline;
+}
+
+.navbar .brand-container {
+  flex-direction: column;
+  align-items: flex-start;
+  width: auto;
+  margin-left: 0;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+.brand-text {
+  color: white;
+}
+
+.first-link {
+  font-size: 1.7em;
+}
+
+.fa-facebook-square {
+  font-size: 2em;
+  color: #3b5998;
+}
+.fa-instagram {
+  font-size: 2em;
+  color: #8a3ab9;
+}
+
+.navbar-toggler {
+  margin-left: 12px;
+}
+
+@media (max-width: 910px) {
+  .brand-text {
+    display: none;
+  }
+}
+
+@media (max-width: 515px) {
+  .navbar .brand-container {
+    display: none;
+  }
+}
+
+/*.navbar-header {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}*/
+
+/*.navbar-header #header {
+  color: white;
+  margin: 0;
+  font-size: 33px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container .citat{
+    color: white;
+    padding-left: 15px;
+    font-style: italic;
+}
+
+.navbar-nav {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+#menu-button {
+  display: block;
+  height: 40px;
+}
+
+@media (max-width: 450px) {
+
+  .navbar-header #header {
+    font-size: 20px;
+  }
+
+  .logga {
+    height: 50px;
+  }
+}
+
+
+
+*/
