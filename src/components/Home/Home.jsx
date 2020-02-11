@@ -9,48 +9,48 @@ export default function Home() {
     <div className="container">
 
       <div className="row">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+          <ol className="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
           </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="/images/school.jpeg" class="d-block w-75" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img src="/images/school.jpeg" className="d-block w-75" alt="..." />
+              <div className="carousel-caption d-none d-md-block">
                 <h2>Välkommen till Asklundamontessori!</h2>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="/images/montessori.jpg" class="d-block w-75" alt="..."/>
-              <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-item">
+              <img src="/images/montessori.jpg" className="d-block w-75" alt="..."/>
+              <div className="carousel-caption d-none d-md-block">
                 <p>Här jobbar vi med montessoripedagogik för att barnen är vår framtid och
                 det gäller att ha en bra start.</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="/images/small_group.jpg" class="d-block w-75" alt="..."/>
-              <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-item">
+              <img src="/images/small_group.jpg" className="d-block w-75" alt="..."/>
+              <div className="carousel-caption d-none d-md-block">
                 <p>För oss är det barnet som står i centrum och vi jobbar med att ha bra lärare
                 i små grupper</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="/images/teachers.jpg" class="d-block w-75" alt="..."/>
-              <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-item">
+              <img src="/images/teachers.jpg" className="d-block w-75" alt="..."/>
+              <div className="carousel-caption d-none d-md-block">
                 <p>Detta är våra lärare</p>
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+          <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+          <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="sr-only">Next</span>
           </a>
         </div>
 

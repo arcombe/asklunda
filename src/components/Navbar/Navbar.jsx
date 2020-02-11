@@ -18,17 +18,9 @@ export default function Navbar() {
         </p>
 
       </div>
-
-
-      <a class="btn btn-social btn-facebook" href="https://www.facebook.com/asklundamontessori/?ref=br_rs">
-        <span class="fa fa-facebook-square"></span>
-      </a>
-      <a class="btn btn-social btn-instagram" href="https://www.instagram.com/asklunda_montessoriforskola/">
-        <span class="fa fa-instagram"></span>
-      </a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
       </button>
 
 
@@ -40,7 +32,6 @@ export default function Navbar() {
                 <a className="nav-link first-link" href="#">Verksamhet</a>
                 <a className="nav-link second-link" href="#">Normer och Värden</a>
                 <a className="nav-link second-link" href="#">Verksamhetsråd</a>
-                <a className="nav-link second-link" href="#">Personal</a>
                 <a className="nav-link second-link" href="#">Värdegrund</a>
                 <a className="nav-link second-link" href="#">Målsättning</a>
                 <a className="nav-link second-link" href="#">Systematiskt Kvalitetsarbete</a>
@@ -58,9 +49,10 @@ export default function Navbar() {
               <div className="col-md-2">
                 <a className="nav-link first-link" href="#">Om Oss</a>
                 <a className="nav-link second-link" href="#">Montessoripedagogik</a>
-                <a className="nav-link second-link" href="#">GDPR</a>
                 <a className="nav-link second-link" href="#">Våra Avdelningar</a>
+                <a className="nav-link second-link" href="#">Personal</a>
                 <a className="nav-link second-link" href="#">Köinformation</a>
+                <a className="nav-link second-link" href="#">GDPR</a>
                 <a className="nav-link second-link" href="#">Kontakt</a>
               </div>
               <div className="col-md-2">

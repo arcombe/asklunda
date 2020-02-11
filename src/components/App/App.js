@@ -7,7 +7,7 @@ import Home from '../Home/Home';
 
 function App() {
   return (
-    <div className="app bg-light">
+    <div className="app">
       <Navbar />
 
       <Home/>
