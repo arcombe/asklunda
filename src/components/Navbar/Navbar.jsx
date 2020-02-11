@@ -51,9 +51,7 @@ export default function Navbar() {
                 <a className="nav-link second-link" href="#">Vård Av Sjukt Barn</a>
                 <a className="nav-link second-link" href="#">Likabehandlingsplan</a>
                 <a className="nav-link second-link" href="#">Synpunkter och Klagomål</a>
-              </div>
-              <div className="col-md-2">
-                <a className="nav-link first-link" href="#">Kök</a>
+                <a className="nav-link second-link" href="#">Kök</a>
                 <a className="nav-link second-link" href="#">Handlingsplan för barn med särskild kost</a>
                 <a className="nav-link second-link" href="#">Matpolicy</a>
               </div>
